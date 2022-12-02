@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 1rem;
+    border-bottom: 1px solid #CCC;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
+.navbar .nav-item a {
+    color: #212529;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+.navbar .nav-item .btn {
+    color: #fff;
+    background-color: #F03E3E;
+    border: 1px solid transparent;
+    border-radius: 15;
+}
+
+.nav-link.btn.btn-primary:hover, .list-group-item a:hover, #form-box button:hover {
+    background-color: #FFF;
+    color: #F03E3E;
+    border-color: #F03E3E;
+}
+
+/* banner */
+
+#top-container {
+    padding: 110px;
+    background-color: #F7F9FC;
+    color: #FFF;
+    text-shadow: 2px 2px 7px rgba(79,79,79,0.7);
+    border-bottom: 1px solid #DDE0F4;
+    margin-bottom: 30px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+}
+
+
+
+.btn-outline-secondary {
+    color: #808080;
+    border: 1px solid transparent;
+    border-color: #808080;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #F03E3E;
+    border-color: #F03E3E;
+    color: #FFF;
+}
+
+#main-title {
+    padding: 10px 0;
+    font-size: 3rem;
+}
+
+#main-subtitle {
+    font-size: 1rem;
+    padding-bottom: 80px;
+}
+
+.form-main1 {
+    box-shadow: -1px 5px 12px 5px rgba(0,0,0,0.32);
+}
+/* form */
+
+#search-form {
+    padding: 30px 100px;
+}
+
+/* list */
+
+#jobs-container {
+    padding: 0 100px;
+    padding-bottom: 50px;
+}
+
+#job-list .list-group-item {
+    margin-bottom: 8px;
+    border: 1px solid #CCC;
+    padding: 15px 80px;
+    color: #212529;
+    height: 120px;
+}
+
+#job-list .list-group-item p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+#job-list .list-group-item.new-job {
+    border: none;
+    background-color: #FFF7cc;
+}
+
+#job-list-title {
+    margin-bottom: 35px;
+}
+
+.list-group-item img {
+    width: 80px;
+    border: 1px solid #212529;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    left: -40px;
+    top: calc(50% - 40px);
+}
+
+.list-group-item a {
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    height: 50px;
+    line-height: 35px;
+    background-color: #F03E3E;
+    color: #FFF;
+    border: 1px solid transparent;
+}
+
+.new-job-label {
+    background-color: #FFD500;
+    border-radius: 5px;
+    color: #4D5154;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px 10px;
+    position: absolute;
+    top: 42px;
+    right: 160px;
+    display: none;
+}
+
+.new-job .new-job-label {
+    display: block;
+}
+
+/* add page */
+
+#add-form-container {
+    margin-top: 50px;
+}
+
+#form-box {
+    padding: 50px;
+    box-shadow: -1px -1px 29px 1px rgba(0,0,0,0.10);;
+    border-radius: 4px;
+    background-color: #FFF;
+    margin-bottom: 50px;
+}
+
+#add-form-container .col-md-12 {
+    margin-bottom: 40px;
+}
+
+#add-form-container h2 {
+    color:#F03E3E;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+#add-form-container form label {
+    font-weight: bold;
+}
+
+#add-form-container form input, #add-form-container form textarea {
+    border: 2px solid #CCC;
+    background-color: #F8F9FA;
+    margin-top: 7px;
+}
+
+#form-box button {
+    height: 50px;
+    width: 200px;
+    background-color: #F03E3E;
+    border: 1px solid transparent;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-size: 18px;
+    display: block;
+    margin-left: auto;
+}
+
+.form-group {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* job-view */
+
+#job-view-container {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#job-view-container h1 {
+    margin-bottom: 30px;
+}
+
+#img-container {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#img-container img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #212529;
+}
+
+.job-desc {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main-color {
+    color: #F03E3E;
+}
+#job-view-container p a:hover {
+    text-decoration: none;
+}
+
+.back-link {
+    width: 150px;
+    border: 1px solid #F03E3E;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.back-link:hover {
+    background-color: #F03E3E;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* responsivo */
+
+@media (min-width: 1100px) {
+    #top-container {
+        text-shadow: 2px 2px 7px rgba(79,79,79,0.9);
+    }
+
+    .input-group {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 1366px) {
+
+    #job-view-container {
+        margin-top: 30px;
+
+    }
+
+    #img-container img {
+        margin: -20px;
+    }
+
+}
+@media (max-width: 820px) {
+
+    /* navbar */
+    #navbarNav {
+        text-align: center;
+    }
+
+    /* home */
+    #top-container {
+        padding: 50px;
+    }
+
+    #main-title{
+        font-size: 2.2rem;
+    }
+
+    #main-subtitle{
+        font-size: 1.5rem;
+    }
+
+    #search-form{
+        padding: 0px;
+    }
+
+    #jobs-container {
+        padding: 20px;
+    }
+
+    #list-group-item {
+        padding: 15px 85px;
+    }
+
+    .list-group-item h2{
+        font-size: 1.3rem;
+    }
+
+    .list-group-item img {
+        width: 50px;
+        left: 15px;
+        top: calc(50% - 25px);
+    }
+
+    .new-job .new-job-label {
+        display: none;
+    }
+
+    .job-desc {
+        width: 80%;
+    }
+
+    /* add view */
+
+    #form-box {
+        padding: 25px;
+    }
+
+    #form-box h2 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #form-box button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    #top-container {
+        padding: 20px;
+    }
+    .input-group .w-75 {
+        width: 100%;!important;
+    }
+}
+@media (max-width: 395px) {
+    #top-container {
+        background-position: -150px 0px;
+    }
+    .list-group-item a {
+        height: 35px;
+        width: 80px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .list-group-item h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .list-group-item a {
+        top: 70px;
+        right: 10px;
+    }
+
+    .list-group-item h2 {
+        margin-top: -5px;
+    }
+}
